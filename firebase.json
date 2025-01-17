@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "/detect-text",
+        "function": "ocrFunction"
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+}
